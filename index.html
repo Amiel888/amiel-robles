@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amiel's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NAV-->
+    <nav id="nav">
+      <div class="logo">
+        <a href="#">
+          <img
+            class="nav-logo"
+            src="./img/amiel-logo1.png"
+            alt="My portfolio's logo"
+          />
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about" data-text="About">About</a></li>
+        <li><a href="#skills" data-text="Skills">Skills</a></li>
+        <li><a href="#projects" data-text="Projects">Projects</a></li>
+        <li><a href="#contact" data-text="Contact">Contact</a></li>
+        <li><a href="./blog.html" data-text="Blog">Blog</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <main>
+      <!--HERO-->
+      <section id="hero">
+        <div class="hero-text">
+          <h1>Full Stack Web Developer</h1>
+          <h2>Amiel Robles</h2>
+          <p>
+            Aspiring full-stack web developer focused on building clean,
+            functional, and user-driven applications. I learn fast, solve
+            problems, and turn ideas into working products.
+          </p>
+        </div>
+        <div class="hero-image">
+          <div class="photo-wrapper">
+            <img
+              class="hero-photo"
+              src="./img/GradPic_BlackNWhite.JPG"
+              alt="My photo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--ABOUT-->
+      <section id="about">
+        <div class="about-container">
+          <h2>About me</h2>
+          <div class="about-content">
+            <p>
+              I'm a MERN stack developer who builds full stack web applications
+              that are fast, scalable, and built to get results. I work with
+              MongoDB, Express, React, and Node.js to deliver clean user
+              experiences backed by solid backend systems. I'm a go-getter who
+              doesn't wait around—I take action, solve problems, and get things
+              done. Right now, I'm focused on building real-world projects,
+              improving my craft daily, and turning ideas into working products.
+            </p>
+            <a href="./amiel_Resume.pdf" download class="resume-btn">
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--SKILLS-->
+      <section id="skills">
+        <div class="skills-container">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <img src="./img/html.png" alt="HTML5 logo" />
+              <p>html</p>
+            </div>
+            <div class="skill-card">
+              <img src="./img/text.png" alt="CSS3 logo" />
+              <p>css</p>
+            </div>
+            <div class="skill-card">
+              <img src="./img/js.png" alt="JavaScript logo" />
+              <p>Javascript</p>
+            </div>
+            <div class="skill-card">
+              <img src="./img/git.png" alt="Git logo" />
+              <p>Git</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--PROJECTS-->
+      <section id="projects">
+        <div class="projects-container">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img
+                src="./img/todo-screenshot.png"
+                alt="Todo Console App screenshot"
+              />
+              <div class="project-info">
+                <h3>Todo Console App</h3>
+                <p>
+                  A full CRUD console application built with vanilla JavaScript.
+                  Add, edit, delete and filter tasks by status.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://gitlab.com/uplift-code-camp/students/batch-29/jon-amiel-robles/projects.git"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    href="https://gitlab.com/uplift-code-camp/students/batch-29/jon-amiel-robles/projects.git"
+                    target="_blank"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                src="./img/portfolio-screenshot.png"
+                alt="Portfolio website screenshot"
+              />
+              <div class="project-info">
+                <h3>Portfolio Website</h3>
+                <p>
+                  Personal portfolio built with HTML, CSS and JavaScript. Fully
+                  responsive across all devices.
+                </p>
+                <div class="project-links">
+                  <a href="#" target="_blank">Live</a>
+                  <a href="#" target="_blank">Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                src="./img/tindog-screenshot.png"
+                alt="Portfolio website screenshot"
+              />
+              <div class="project-info">
+                <h3>Tindog Landing Page</h3>
+                <p>
+                  A dog dating site built with HTML, CSS and JavaScript. Fully
+                  responsive across all devices.
+                </p>
+                <div class="project-links">
+                  <a
+                    href="https://amiel888.github.io/tindog-landing-page/"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/Amiel888/tindog-landing-page"
+                    target="_blank"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                src="./img/dice-game-screenshot.png"
+                alt="Dice Game Website Screenshot"
+              />
+              <div class="project-info">
+                <h3>Dice Game Webapp</h3>
+                <p>A simple dice game built using HTML, CSS and JavaScript.</p>
+                <div class="project-links">
+                  <a
+                    href="https://amiel888.github.io/dice-game/"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/Amiel888/dice-game"
+                    target="_blank"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                src="./img/drumkit-screenshot.png"
+                alt="Drumkit Webb App Screenshot"
+              />
+              <div class="project-info">
+                <h3>Drumkit Webapp</h3>
+                <p>
+                  An interactive drumkit webapp that showcases Basic JavaScript
+                  skills.
+                </p>
+                <div class="project-links">
+                  <a href="https://amiel888.github.io/drum-kit/" target="_blank"
+                    >Live</a
+                  >
+                  <a href="https://github.com/Amiel888/drum-kit" target="_blank"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img
+                src="./img/simon-game-screenshot.png"
+                alt="Simon Game Web App Screenshot"
+              />
+              <div class="project-info">
+                <h3>Simon Game Webapp</h3>
+                <p>A memory game that progress each time you finish a level.</p>
+                <div class="project-links">
+                  <a
+                    href="https://amiel888.github.io/TrialGame/"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/Amiel888/TrialGame.git"
+                    target="_blank"
+                    >Github</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CONTACT-->
+      <section id="contact">
+        <div class="contact-container">
+          <h2>Let's Work Together</h2>
+          <p class="contact-email">
+            or reach me directly at
+            <a href="mailto:robles.jonamielvalenzuela@gmail.com"
+              >robles.jonamielvalenzuela@gmail.com</a
+            >
+          </p>
+          <div class="contact-form">
+            <form>
+              <fieldset class="contact-fieldset">
+                <div>
+                  <label class="contact-label" for="name">Name: </label>
+                  <input
+                    type="text"
+                    id="name"
+                    autocomplete="name"
+                    placeholder="Juan De La Cruz"
+                    required
+                  />
+                </div>
+                <div>
+                  <label class="contact-label" for="email">Email: </label>
+                  <input
+                    type="email"
+                    id="email"
+                    autocomplete="email"
+                    placeholder="juan@email.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label class="contact-label" for="message">Message: </label>
+                  <textarea
+                    class="contact-textarea"
+                    id="message"
+                    required
+                    placeholder="What's on your mind?"
+                  ></textarea>
+                </div>
+
+                <button class="contact-button">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-links">
+          <a
+            href="https://www.facebook.com/amielrobles1997/"
+            target="_blank"
+            aria-label="Facebook"
+          >
+            <img src="./img/facebook-icon.png" alt="Facebook" />
+          </a>
+          <a
+            href="https://github.com/Amiel888"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <img src="./img/github-icon.png" alt="GitHub" />
+          </a>
+          <a
+            href="https://www.instagram.com/am1el.exe/"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <img src="./img/ig-icon.png" alt="Instagram" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/amiel-robles-758bb522b/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <img src="./img/linkedin-icon.png" alt="LinkedIn" />
+          </a>
+        </div>
+        <p class="footer-copy">© 2026 Amiel Robles. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
